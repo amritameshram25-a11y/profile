@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit 📝Feedback</title>
+</head>
+<body>
+    <hrader>
+        <h1>Submit 📝Feedback</h1>
+    </hrader>
+    <nav>
+        <ul>
+            <li><a href="home.html">🏠 Home</a></li>
+            <li><a href="profile.html">👩🏻 Profile</a></li>
+            <li><a href="courses.html">📚 Courses</a></li>
+            <li><a href="grades.html">📊 Grades</a></li>
+            <li><a href="feedback.html">✍🏻 Feedback</a></li>
+            <li><a href="contact.html">☎️ Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <p>I would love to hear your feedback about me! Please share your thoughts below.</p>
+
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <p>Rate Me:</p>
+            <input type="radio" id="excellent" name="rating" value="excellent">
+            <label for="excellent">Excellent</label>
+            <br>
+
+            <input type="radio" id="good" name="rating" value="good">
+            <label for="good">Good</label>
+            <br>
+
+            <input type="radio" id="average" name="rating" value="average">
+            <label for="average">Average</label>
+            <br><br>
+
+            <label for="message">Your Feedback:</label>
+            <br>
+            <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+            <br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Copyright 2024. All rights reserved.</p>
+    </footer>
+</body>
+</html>
